@@ -1,0 +1,265 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+.body{
+    background:#eee;
+}
+
+.main-nav{
+    width: 100%;
+    height: 120%;
+    display: grid;
+    grid-template-columns: 3rem 1fr 4fr 1fr 3rem;
+    background-color: blanchedalmond;
+    /* position: fixed; */
+    /* background-color: white; */
+}
+
+.logo{
+    grid-column: 2/3;
+    justify-content: start;
+    display: flex;
+    margin-bottom: 15px;
+    /* height: 7rem; */
+}
+
+.logo h1{
+    /* margin-bottom: 40px; */
+    margin-top: 20px;
+    /* size: 4px; */
+    /* height: 20px; */
+}
+
+.basket{
+    color: orange;
+    /* height: 40px; */
+    /* height: 7rem; */
+}
+
+.menu-link{
+    grid-column: 3/4;
+    
+}
+
+.menu-link ul{
+    height: 30px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu-link ul li{
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.menu-link ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.menu-link ul li a:hover{
+    color: orange;
+}
+
+.menu-link ul li:hover{
+    color: orange;
+    /* text-decoration: underline; */
+    transition: 0.5s;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.Nav-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.Nav-icons li {
+    margin-right: 10px;
+}
+
+.icon-box {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color:rgb(216, 214, 214);
+}
+
+.icon-box a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.icon-box:hover {
+    background-color: orange;
+}
+
+.icon-box:hover a {
+    color: white; /* Change icon color on hover */
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://dhananajay12.github.io/Grocery-website-single-page/image/banner-bg.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}
+
+.content{
+    display:list-item;
+    margin-left: 200px;
+    margin-right: 130px;
+    width: 500px;
+    margin-top: -150px;
+}
+
+.content h2{
+    justify-content: center;
+    text-align: center;
+    display: inline;
+    width: 100%;
+}
+
+.content h2 span{
+    color: orange;
+}
+
+.content p{
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: gray;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto 0;
+    border: 2px solid #333;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: medium;
+}
+
+.btn:hover{
+    color: white;
+    background-color: orange;
+}
+
+
+/* Features css */
+
+.card:hover{
+    border: 2px solid;
+}
+
+
+.feature-h{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centered-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px !important;
+    /* border: 2px solid !important; */
+}
+
+.feature-btn {
+    color: black !important;
+    border: 2px solid !important;
+    margin-bottom: 15px !important;
+}
+
+.feature-btn:hover{
+    color: white !important;
+    background-color: orange !important;
+    border: 2px solid black !important;
+}
+
+
+/* Praducts Page */
+
+.prod-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.prod-card:hover{
+    border: 2px solid;
+}
+
+.prod-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prod-btn-item{
+    display: flex;
+    justify-content: center;
+}
+
+.prod-btn{
+    color: black !important;
+    border: 2px solid !important;
+}
+
+.prod-btn:hover{
+    color: white !important;
+    background-color: orange !important;
+    border: 2px solid black !important;
+}
+
+.prod-star{
+    display: flex;
+    justify-content: center;
+}
+
+.foot{
+    background-color: blanchedalmond;
+}
+
+.footer{
+    margin-top: 50px;
+}
